@@ -12,11 +12,12 @@ run_kr_abundance --input_dir /home/harouna/ARSNACAdata/bamfiles/mypipeline --out
 * --virus: we are considering only virus. Use --bacteria if you need only bacteria
 * add --no_bowtie if you don't want to deplete
 * add --use_precomputed_reports to used procomputed kraken report
+* add --no_metadata if there is no metadata
 
 
   # Installation
-  * git clone https://github.com/Harounas/Metagenomics_pipeline.git
-  * cd Metagenomics_pipeline
+  * git clone https://github.com/Harounas/Metagenomics_pipeline1.git
+  * cd Metagenomics_pipeline1
   * sudo pip install -e .
   * conda install -c bioconda trimmomatic
   * conda install -c bioconda bowtie2
